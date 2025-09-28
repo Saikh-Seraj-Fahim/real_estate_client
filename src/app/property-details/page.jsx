@@ -82,23 +82,23 @@ export default function PropertyDetails() {
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4 ref={overviewRef}">
                 <div className="relative lg:col-span-2 h-75">
-                    <Image src="/home_pic_1.jpg" alt="home1" fill className="object-cover" />
+                    <Image src="/Image/properitse/home_pic_1.jpg" alt="home1" fill className="object-cover" />
                 </div>
                 <div className="relative h-75">
-                    <Image src="/home_pic_2.jpg" alt="home2" fill className="object-cover" />
+                    <Image src="/Image/properitse/home_pic_2.jpg" alt="home2" fill className="object-cover" />
                 </div>
                 <div className="relative h-75">
-                    <Image src="/home_pic_3.jpg" alt="home3" fill className="object-cover" />
+                    <Image src="/Image/properitse/home_pic_3.jpg" alt="home3" fill className="object-cover" />
                 </div>
 
                 <div className="relative lg:col-span-2 h-75">
-                    <Image src="/home_pic_4.jpg" alt="home4" fill className="object-cover" />
+                    <Image src="/Image/properitse/home_pic_4.jpg" alt="home4" fill className="object-cover" />
                 </div>
                 <div className="relative h-75">
-                    <Image src="/home_pic_5.jpg" alt="home5" fill className="object-cover" />
+                    <Image src="/Image/properitse/home_pic_5.jpg" alt="home5" fill className="object-cover" />
                 </div>
                 <div className="relative h-75">
-                    <Image src="/home_pic_6.jpg" alt="home6" fill className="object-cover" />
+                    <Image src="/Image/properitse/home_pic_4.jpg" alt="home6" fill className="object-cover" />
                     <Link href="/view-all-images">
                         <Button className="absolute bottom-3 right-3 cursor-pointer bg-white 
                     text-black font-poppins text-base hover:bg-white hover:text-black">
