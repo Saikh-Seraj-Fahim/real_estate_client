@@ -7,6 +7,7 @@ export default function Footer() {
             </div>
             <div>
                 <p className="bg-[#000000] text-center">2025  Property Insights. All rights reserved</p>
+               
             </div>
         </div>
     );

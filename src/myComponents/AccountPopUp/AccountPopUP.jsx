@@ -35,6 +35,7 @@ const AccountPopUP = () => {
             </div>
 
             <div className="w-full">
+            
               <Link href="/saved-properties">
                 <Button
                   className="w-full flex justify-between cursor-pointer bg-[#D9D9D9] 

@@ -7,6 +7,7 @@ import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { APIProvider, Map, Marker } from "@vis.gl/react-google-maps";
 
+
 export default function PropertyDetails() {
     const [showMore, setShowMore] = useState(false);
 
@@ -81,8 +82,9 @@ export default function PropertyDetails() {
             </div>
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-4 ref={overviewRef}">
+                
                 <div className="relative lg:col-span-2">
-                    <Image src={"/Image/properitse/home_pic_1.jpg"} alt="home1" fill className="object-cover" />
+                    <Image src='/' alt="home1" fill className="object-cover" />
                 </div>
                 <div className="relative">
                     <Image src={"/Image/properitse/home_pic_2.jpg"} alt="home2" fill className="object-cover" />
